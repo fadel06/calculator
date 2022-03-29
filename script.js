@@ -113,7 +113,7 @@ deleteBtn.addEventListener('click', () => {
 })
 // delete function
 const deleteFunction = () => {
-    currentNumber = currentNumber.slice(0, -1)
+    currentNumber = currentNumber.toString().slice(0, -1)
     if(currentNumber.length === 0){
         currentNumber = '0'
     }
